@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:buttonStyle">@style/buttonStyle</item>
+    </style>
+    <style name="buttonStyle" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:height">144dp</item>
+        <item name="android:width">144dp</item>
+    </style>
+</resources>
